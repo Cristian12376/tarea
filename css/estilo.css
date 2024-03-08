@@ -1,0 +1,92 @@
+.principal{
+    height: 600px;
+    width: 100%;
+    border: green 5px solid;
+    display: flex;
+}
+/*CAJAS GRANDES*/
+.cj1{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    flex-direction: column;
+}
+    .ckk1{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+        .ck1{
+            border: black 5px solid;
+            width: 100%;
+            height:150px;
+            margin: 5px 5px 5px 5px;
+        }
+    .ckk2{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+    }
+        .ck2{
+            border: black 5px solid;
+            width: 95%;
+            height:50px;
+            margin: 5px 5px 5px 5px;
+        }
+    .ckk3{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+        .ck3{
+            border: black 5px solid;
+            width: 100%;
+            height:150px;
+            margin: 5px 5px 5px 5px;
+        }
+.cj2{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    flex-direction: column;
+}
+    .ck4{
+        border: black 5px solid;
+        width: 95%;
+        height: 95%;
+        margin: 5px 5px 5px 5px;
+    }
+.cj3{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    flex-flow: wrap;
+    align-self: auto;
+}
+    .ck5{
+        border: black 5px solid;
+        display: flex;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 5px;
+        justify-content: center;
+    }
+@media all and (max-width:800px){
+    .principal{
+        flex-direction: column;
+    }
+}
+@media all and (max-width:600px){
+    .principal{
+        flex-direction: column;
+    }
+}
+@media all and (max-width:400px){
+    .principal{
+        flex-direction: column;
+    }
+}
